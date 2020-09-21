@@ -216,7 +216,7 @@ nav ul li a {
 }
 
 .bannar .image img{
-	width:100%;
+	width:600px;
 	height:600px;
 } 
 
@@ -242,7 +242,7 @@ h3{
 
 .about p { font-family:arial;}
 
-@media only screen  and (orientation:portrait) and (max-width:1000px){
+@media only screen  and (orientation:portrait) and (max-width:800px){
 	
 	.about{
 		padding:50px 20px;
