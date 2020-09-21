@@ -10,7 +10,7 @@ a{text-decoration: none;}
 section{
 	padding: 100Px;
 }
-@media only screen  and (orientation:portrait) and (max-width:800px){
+@media only screen  and (orientation:portrait) and (max-width:1000px){
 	section{padding: 80px 20px;}
 	}
 
@@ -64,7 +64,7 @@ nav ul li a {
 	display: block;
 }
 
-@media only screen  and (orientation:portrait) and (max-width:800px){
+@media only screen  and (orientation:portrait) and (max-width:1000px){
 	header{
 		padding: 50px 20px;
 		}
@@ -175,7 +175,7 @@ nav ul li a {
 	cursor:pointer;
 }
 
-@media only screen  and (orientation:portrait) and (max-width:800px){
+@media only screen  and (orientation:portrait) and (max-width:1000px){
 	.bannar{
 		padding:20px;
 		height:100vh
@@ -216,7 +216,7 @@ nav ul li a {
 }
 
 .bannar .image img{
-	width:600px;
+	width:100%;
 	height:600px;
 } 
 
@@ -242,7 +242,7 @@ h3{
 
 .about p { font-family:arial;}
 
-@media only screen  and (orientation:portrait) and (max-width:800px){
+@media only screen  and (orientation:portrait) and (max-width:1000px){
 	
 	.about{
 		padding:50px 20px;
@@ -357,7 +357,7 @@ h3:after{
 	
 }
 
-@media only screen  and (orientation:portrait) and (max-width:800px){
+@media only screen  and (orientation:portrait) and (max-width:1000px){
 	.education{
 	padding:50px 20px;
 }
@@ -442,7 +442,7 @@ progress {
 	border-radius:0;
 }
 
-@media only screen  and (orientation:portrait) and (max-width:800px){
+@media only screen  and (orientation:portrait) and (max-width:1000px){
 	.singel-skills{
 	flex-basis:100%;
 	padding:0 ;
@@ -503,12 +503,13 @@ form button{
 	
 }
 
-@media only screen  and (orientation:portrait) and (max-width:800px){
-	form input,
+@media only screen  and (orientation:portrait) and (max-width:1000px){
+form input,
 form textarea 
 {
 	width:100%;
 }
+	
 }
 
 /*------footer------*/
@@ -530,7 +531,8 @@ footer p{
 footer i{
 	margin-left:10px;
 	padding:20px;
-	color:#fff
+	color:#fff;
+	margin-bottom:5px;
 }
 
 footer .iteam1 {
