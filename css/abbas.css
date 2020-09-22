@@ -362,6 +362,8 @@ h3:after{
 	padding:50px 20px;
 }
 
+.content-education{paddding:0;}
+	
 .content-education .degree h4{
 	font-size:23px;
 	margin-bottom:10px
